@@ -56,6 +56,9 @@ const init = async () => {
       credentials: {
         id: artifacts.decoded.payload.id,
       },
+      credentials: {
+        id: artifacts.decoded.payload.id,
+      },
     }),
   })
 
